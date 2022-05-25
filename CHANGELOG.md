@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/shinokada/svelte-materialdesign/compare/v0.1.1...v0.1.2) (2022-05-25)
+
+
+### Bug Fixes
+
+* name change ([d4a4d03](https://github.com/shinokada/svelte-materialdesign/commit/d4a4d036a5102504464894d2ae3422db2c303750))
+
 ### [0.1.1](https://github.com/shinokada/svelte-materialdesign/compare/v0.1.0...v0.1.1) (2022-05-25)
 
 
