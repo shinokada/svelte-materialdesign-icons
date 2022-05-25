@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/shinokada/svelte-materialdesign/compare/v0.1.2...v0.1.3) (2022-05-25)
+
+
+### Bug Fixes
+
+* removed Solid from all names ([c4f5b3b](https://github.com/shinokada/svelte-materialdesign/commit/c4f5b3b0f85429fcd9ff91303412eef60de4efff))
+
 ### [0.1.2](https://github.com/shinokada/svelte-materialdesign/compare/v0.1.1...v0.1.2) (2022-05-25)
 
 
