@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/shinokada/svelte-materialdesign/compare/v0.1.3...v0.2.0) (2022-05-25)
+
+
+### Features
+
+* add restProps and aria-label ([1dccd17](https://github.com/shinokada/svelte-materialdesign/commit/1dccd1758b31cc31b9612a3ef6b37b36cd4704a6))
+
 ### [0.1.3](https://github.com/shinokada/svelte-materialdesign/compare/v0.1.2...v0.1.3) (2022-05-25)
 
 ### Bug Fixes
