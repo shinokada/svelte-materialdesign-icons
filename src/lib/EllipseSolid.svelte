@@ -1,0 +1,2 @@
+<script>export let size="24"; export let color="currentColor";</script>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="mdi-ellipse"  width={size} height={size} fill={color} class={$$props.class} viewBox="0 0 24 24"><path d="M12,4C6.5,4 2,7.58 2,12C2,16.42 6.5,20 12,20C17.5,20 22,16.42 22,12C22,7.58 17.5,4 12,4Z" /></svg>
