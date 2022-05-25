@@ -3,7 +3,7 @@
 [![npm version](https://badgen.net/npm/v/svelte-materialdesign-icons)](https://www.npmjs.com/package/svelte-materialdesign-icons)
 [![license](https://badgen.net/npm/license/svelte-materialdesign-icons)](https://github.com/shinokada/svelte-materialdesign-icons/blob/main/LICENSE)
 
-Material Design SVG icon components for Svelte. Svelte-Materialdesign-Icons support major CSS frameworks using the `class` props.
+6980+ Material Design SVG icon components for Svelte. Svelte-Materialdesign-Icons support major CSS frameworks using the `class` props.
 
 ## Icon name list
 
@@ -82,13 +82,16 @@ Let's use `dark` for the dark mode class as an example.
 
 ## aria-label
 
-Use `ariaLabel` to modify the `aria-label` prop. The default aria-label of `AccessPointOff` is `arai-label="access point off"`.
+All icons have aria-label. For example `AccessPointOff` has `aria-label="access point off"`.
+Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
 <AccessPointOff ariaLabel="Access off">
 ```
 
 ## Passing down other attributes
+
+You can pass other attibutes as well.
 
 ```html
 <AccessPointOff tabindex="0">
