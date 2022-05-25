@@ -1,2 +1,22 @@
-<script>export let size="24"; export let color="currentColor";</script>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="mdi-arrow-bottom-left-bold-box-outline"  width={size} height={size} fill={color} class={$$props.class} viewBox="0 0 24 24"><path d="M8 16V8.9L10.1 11L14.2 7.1L17 10L12.9 13.9L15 16H8M21 19V5C21 3.9 20.1 3 19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19M19 19H5V5H19V19Z" /></svg>
+<script>
+	export let size = '24';
+	export let color = 'currentColor';
+	export let ariaLabel = 'arrow bottom left bold box outline';
+</script>
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	version="1.1"
+	id="mdi-arrow-bottom-left-bold-box-outline"
+	width={size}
+	height={size}
+	fill={color}
+	class={$$props.class}
+	{...$$restProps}
+	aria-label={ariaLabel}
+	viewBox="0 0 24 24"
+	><path
+		d="M8 16V8.9L10.1 11L14.2 7.1L17 10L12.9 13.9L15 16H8M21 19V5C21 3.9 20.1 3 19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19M19 19H5V5H19V19Z"
+	/></svg
+>

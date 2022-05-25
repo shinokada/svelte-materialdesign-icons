@@ -12,7 +12,7 @@
 
 <h1 class="text-3xl flex justify-center py-8">SVELTE-Materialdesign-icons</h1>
 <div class="container flex flex-wrap mx-auto justify-center">
-	<Adjust color="#4daad6" size="50" />
+	<Adjust color="#4daad6" size="50" ariaLabel="Adjust icon" tabindex="0" />
 	<ArrowUpBoldOutline size="50" />
 	<Bucket size="50" />
 	<Card size="50" />

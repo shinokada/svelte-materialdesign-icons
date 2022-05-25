@@ -21,14 +21,14 @@ In a svelte file:
 
 ```html
 <script>
-    import {
-    Adjust,
-    ArrowUpBoldOutline,
-    Bucket,
-    Card,
-    ChatPlus,
-    DataMatrix
-  } from "svelte-awesome-icons";
+	import {
+		Adjust,
+		ArrowUpBoldOutline,
+		Bucket,
+		Card,
+		ChatPlus,
+		DataMatrix
+	} from 'svelte-awesome-icons';
 </script>
 
 <ToiletsPortableSolid />
@@ -94,18 +94,18 @@ Use `import * as Icon from 'svelte-awesome-icons`.
 
 ```html
 <script>
-	import * as Icon from 'svelte-awesome-icons'
+	import * as Icon from 'svelte-awesome-icons';
 </script>
 
 <Icon.AppStoreBrand />
 <Icon.ArrowRightToBracketSolid />
 
 <h1>Size</h1>
-<Icon.AppStoreBrand size="30"/>
-<Icon.ArrowRightToBracketSolid size="40"/>
+<Icon.AppStoreBrand size="30" />
+<Icon.ArrowRightToBracketSolid size="40" />
 
 <h1>CSS HEX color</h1>
-<Icon.ArrowRightToBracketSolid color="#c61515" size="40"/>
+<Icon.ArrowRightToBracketSolid color="#c61515" size="40" />
 
 <h1>Tailwind CSS</h1>
 <Icon.AppStoreBrand class="text-blue-500" />

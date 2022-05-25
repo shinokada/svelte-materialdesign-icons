@@ -1,2 +1,19 @@
-<script>export let size="24"; export let color="currentColor";</script>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="mdi-format-horizontal-align-left"  width={size} height={size} fill={color} class={$$props.class} viewBox="0 0 24 24"><path d="M11,16V13H21V11H11V8L7,12L11,16M3,20H5V4H3V20Z" /></svg>
+<script>
+	export let size = '24';
+	export let color = 'currentColor';
+	export let ariaLabel = 'format horizontal align left';
+</script>
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	version="1.1"
+	id="mdi-format-horizontal-align-left"
+	width={size}
+	height={size}
+	fill={color}
+	class={$$props.class}
+	{...$$restProps}
+	aria-label={ariaLabel}
+	viewBox="0 0 24 24"><path d="M11,16V13H21V11H11V8L7,12L11,16M3,20H5V4H3V20Z" /></svg
+>

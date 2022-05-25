@@ -1,2 +1,19 @@
-<script>export let size="24"; export let color="currentColor";</script>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="mdi-sort-reverse-variant"  width={size} height={size} fill={color} class={$$props.class} viewBox="0 0 24 24"><path d="M3 11H15V13H3M3 18V16H21V18M3 6H9V8H3Z" /></svg>
+<script>
+	export let size = '24';
+	export let color = 'currentColor';
+	export let ariaLabel = 'sort reverse variant';
+</script>
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	version="1.1"
+	id="mdi-sort-reverse-variant"
+	width={size}
+	height={size}
+	fill={color}
+	class={$$props.class}
+	{...$$restProps}
+	aria-label={ariaLabel}
+	viewBox="0 0 24 24"><path d="M3 11H15V13H3M3 18V16H21V18M3 6H9V8H3Z" /></svg
+>
