@@ -1,15 +1,15 @@
 {
 	"name": "svelte-materialdesign",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "Material Design SVG Icon components for Svelte",
-  "author": {
-    "name": "Shinichi Okada",
-    "email": "connect@codewithshin.com",
-    "url": "https://blog.codewithshin.com"
-  },
-  "bugs": "https://github.com/shinokada/svelte-materialdesign/issues",
-  "homepage": "https://github.com/shinokada/svelte-materialdesign",
-  "license": "MIT",
+	"author": {
+		"name": "Shinichi Okada",
+		"email": "connect@codewithshin.com",
+		"url": "https://blog.codewithshin.com"
+	},
+	"bugs": "https://github.com/shinokada/svelte-materialdesign/issues",
+	"homepage": "https://github.com/shinokada/svelte-materialdesign",
+	"license": "MIT",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -33,16 +33,16 @@
 		"typescript": "~4.6.2"
 	},
 	"type": "module",
-  "keywords": [
-    "svelte",
-    "sveltekit",
-    "material design",
-    "svg icons",
-    "tailwindcss",
-    "icons"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shinokada/svelte-materialdesign"
-  }
+	"keywords": [
+		"svelte",
+		"sveltekit",
+		"material design",
+		"svg icons",
+		"tailwindcss",
+		"icons"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/shinokada/svelte-materialdesign"
+	}
 }
