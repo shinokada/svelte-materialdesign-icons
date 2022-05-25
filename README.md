@@ -22,18 +22,16 @@ In a svelte file:
 ```html
 <script>
 	import {
-		Adjust,
-		ArrowUpBoldOutline,
-		Bucket,
-		Card,
-		ChatPlus,
-		DataMatrix
+		Adjust, ArrowUpBoldOutline, Bucket, Card, ChatPlus, DataMatrix 
 	} from 'svelte-awesome-icons';
 </script>
 
-<ToiletsPortableSolid />
-<StarHalfRegular />
-<AppleBrand />
+<Adjust />
+<ArrowUpBoldOutline />
+<Bucket />
+<Card />
+<ChatPlus />
+<DataMatrix />
 ```
 
 ## Size
@@ -41,9 +39,9 @@ In a svelte file:
 Use the `size` prop to change the size of icons.
 
 ```html
-<ToiletsPortableSolid size="40" />
-<StarHalfRegular size="50" />
-<AppleBrand size="60" />
+<Adjust size="40" />
+<ArrowUpBoldOutline size="50" />
+<Bucket size="60" />
 ```
 
 ## CSS HEX Colors
@@ -51,9 +49,9 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<ToiletsPortableSolid color="#c61515" />
-<StarHalfRegular color="#3759e5" />
-<AppleBrand color="#3fe537" />
+<Card color="#c61515" />
+<ChatPlus color="#3759e5" />
+<DataMatrix color="#3fe537" />
 ```
 
 ## CSS framworks suport
@@ -63,15 +61,13 @@ Use the `class` prop to change size, colors and add additional css.
 Tailwind CSS example:
 
 ```html
-<ToiletsPortableSolid class="h-24 w-24 text-blue-700 mr-4" />
-<StarHalfRegular class="h-24 w-24 text-red-700" />
-<AppleBrand class="h-24 w-24 text-green-500" />
+<Adjust class="h-24 w-24 text-blue-700 mr-4" />
 ```
 
 Bootstrap examples:
 
 ```html
-<ToiletsPortableSolid class="position-absolute top-0 px-1" />
+<Adjust class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -81,42 +77,55 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<ToiletsPortableSolid class="text-blue-700 dark:text-red-500" />
-<StarHalfRegular class="text-red-700 dark:text-green-500" />
-<AppleBrand class="text-green-500 dark:text-blue-500" />
+<Adjust class="text-blue-700 dark:text-red-500" />
+```
+
+## aria-label
+
+Use `ariaLabel` to modify the `aria-label` prop. The default aria-label of `AccessPointOff` is `arai-label="access point off"`.
+
+```html
+<AccessPointOff ariaLabel="Access off">
+```
+
+## Passing down other attributes
+
+```html
+<AccessPointOff tabindex="0">
 ```
 
 ## Import all
 
 [REPL](https://svelte.dev/repl/c0045886b264408fba13f1de70c42932?version=3.48.0)
 
-Use `import * as Icon from 'svelte-awesome-icons`.
+Use `import * as Icon from 'svelte-materialdesign-icons`.
 
 ```html
 <script>
-	import * as Icon from 'svelte-awesome-icons';
+	import * as Icon from 'svelte-materialdesign-icons';
 </script>
 
-<Icon.AppStoreBrand />
-<Icon.ArrowRightToBracketSolid />
+<Icon.Bucket />
+<Icon.Card />
 
 <h1>Size</h1>
-<Icon.AppStoreBrand size="30" />
-<Icon.ArrowRightToBracketSolid size="40" />
+<Icon.Bucket size="30" />
+<Icon.Card size="40" />
 
 <h1>CSS HEX color</h1>
-<Icon.ArrowRightToBracketSolid color="#c61515" size="40" />
+<Icon.Bucket color="#c61515" size="40" />
 
 <h1>Tailwind CSS</h1>
-<Icon.AppStoreBrand class="text-blue-500" />
-<Icon.ArrowRightToBracketSolid class="text-pink-700" />
+<Icon.Bucket class="text-blue-500" />
+<Icon.Card class="text-pink-700" />
 ```
 
 ## Other icons
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
-- [Svelte-Ionicons](https://www.npmjs.com/package/svelte-ionicons)
 - [Svelte-Awesome-Icons](https://www.npmjs.com/package/svelte-awesome-icons)
+- [Svelte-materialdesign-icons](https://www.npmjs.com/package/svelte-materialdesign-icons)
+- [Svelte-Ionicons](https://www.npmjs.com/package/svelte-ionicons)
 - [Svelte-heros](https://github.com/shinokada/svelte-heros)
 - [Svelte-lucide](https://github.com/shinokada/svelte-lucide)
 - [Svelte-flags](https://www.npmjs.com/package/svelte-flags)
