@@ -1,3 +1,7 @@
+<p align="center">
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-materialdesign-icons/blob/main/static/images/materialdesign1.png" />
+</p>
+
 # Svelte-Materialdesign-Icons
 
 [![npm version](https://badgen.net/npm/v/svelte-materialdesign-icons)](https://www.npmjs.com/package/svelte-materialdesign-icons)
@@ -70,6 +74,10 @@ Bootstrap examples:
 <Adjust class="position-absolute top-0 px-1" />
 ```
 
+<p align="center">
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-materialdesign-icons/blob/main/static/images/materialdesign2.png" />
+</p>
+
 ## Dark mode
 
 If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
@@ -95,6 +103,32 @@ You can pass other attibutes as well.
 
 ```html
 <AccessPointOff tabindex="0">
+```
+
+## Using svelte:component
+
+```html
+<script>
+	import { ChatPlus } from 'svelte-materialdesign-icons';
+	const props = {
+		size: '50',
+		color: '#ff0000'
+	};
+</script>
+
+<svelte:component this={ChatPlus} />
+```
+
+## Using onMount
+
+```html
+<script>
+  import { ChatPlus } from 'svelte-materialdesign-icons';
+	import { onMount } from 'svelte';
+	onMount(() => {
+		const icon = new ChatPlus({ target: document.body, props });
+	});
+</script>
 ```
 
 ## Import all
