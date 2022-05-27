@@ -11,7 +11,7 @@
 
 ## Icon name list
 
-[Icon list](https://github.com/shinokada/svelte-materialdesign-icons/blob/main/icon-list.md)
+[Icon list](https://github.com/shinokada/svelte-materialdesign/blob/main/icon-list.md)
 
 ## Installation
 
@@ -27,7 +27,7 @@ In a svelte file:
 <script>
 	import {
 		Adjust, ArrowUpBoldOutline, Bucket, Card, ChatPlus, DataMatrix 
-	} from 'svelte-awesome-icons';
+	} from 'svelte-materialdesign-icons';
 </script>
 
 <Adjust />
