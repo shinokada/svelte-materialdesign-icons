@@ -1,3 +1,11 @@
+<script>
+	import * as Icon from 'svelte-materialdesign-icons';
+	const random_hex_color_code = () => {
+  let n = (Math.random() * 0xfffff * 1000000).toString(16);
+  return '#' + n.slice(0, 6);
+};
+</script>
+
 <Icon.AbTesting  size="40" color="{random_hex_color_code()}" />
 <Icon.Abacus  size="40" color="{random_hex_color_code()}" />
 <Icon.AbjadArabic  size="40" color="{random_hex_color_code()}" />
