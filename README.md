@@ -26,7 +26,12 @@ In a svelte file:
 ```html
 <script>
 	import {
-		Adjust, ArrowUpBoldOutline, Bucket, Card, ChatPlus, DataMatrix 
+		Adjust,
+		ArrowUpBoldOutline,
+		Bucket,
+		Card,
+		ChatPlus,
+		DataMatrix
 	} from 'svelte-materialdesign-icons';
 </script>
 
@@ -94,7 +99,7 @@ All icons have aria-label. For example `AccessPointOff` has `aria-label="access 
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<AccessPointOff ariaLabel="Access off">
+<AccessPointOff ariaLabel="Access off"></AccessPointOff>
 ```
 
 ## Passing down other attributes
@@ -102,7 +107,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 You can pass other attibutes as well.
 
 ```html
-<AccessPointOff tabindex="0">
+<AccessPointOff tabindex="0"></AccessPointOff>
 ```
 
 ## Using svelte:component
@@ -116,14 +121,14 @@ You can pass other attibutes as well.
 	};
 </script>
 
-<svelte:component this={ChatPlus} />
+<svelte:component this="{ChatPlus}" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { ChatPlus } from 'svelte-materialdesign-icons';
+	import { ChatPlus } from 'svelte-materialdesign-icons';
 	import { onMount } from 'svelte';
 	onMount(() => {
 		const icon = new ChatPlus({ target: document.body, props });
