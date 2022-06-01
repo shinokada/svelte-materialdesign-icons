@@ -1,13 +1,17 @@
-<p align="center">
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-materialdesign/main/static/images/materialdesign1.png" />
-</p>
-
 # Svelte-Materialdesign-Icons
 
 [![npm version](https://badgen.net/npm/v/svelte-materialdesign-icons)](https://www.npmjs.com/package/svelte-materialdesign-icons)
 [![license](https://badgen.net/npm/license/svelte-materialdesign-icons)](https://github.com/shinokada/svelte-materialdesign-icons/blob/main/LICENSE)
 
 6980+ Material Design SVG icon components for Svelte. Svelte-Materialdesign-Icons support major CSS frameworks using the `class` props.
+
+<p align="center">
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-materialdesign/main/static/images/materialdesign1.png" />
+</p>
+
+## Original source
+
+[Templarian/MaterialDesign](https://github.com/Templarian/MaterialDesign)
 
 ## Icon name list
 
