@@ -1,22 +1,22 @@
 <script>
-	export let size = '24';
-	export let color = 'currentColor';
-	export let ariaLabel = 'vuejs';
+  export let size = '24';
+  export let color = 'currentColor';
+  export let ariaLabel = 'vuejs';
 </script>
 
 <svg
-	xmlns="http://www.w3.org/2000/svg"
-	xmlns:xlink="http://www.w3.org/1999/xlink"
-	version="1.1"
-	id="mdi-vuejs"
-	width={size}
-	height={size}
-	fill={color}
-	class={$$props.class}
-	{...$$restProps}
-	aria-label={ariaLabel}
-	viewBox="0 0 24 24"
-	><path
-		d="M2,3H5.5L12,15L18.5,3H22L12,21L2,3M6.5,3H9.5L12,7.58L14.5,3H17.5L12,13.08L6.5,3Z"
-	/></svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1"
+  id="mdi-vuejs"
+  width={size}
+  height={size}
+  fill={color}
+  class={$$props.class}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  viewBox="0 0 24 24"
+  ><path
+    d="M2,3H5.5L12,15L18.5,3H22L12,21L2,3M6.5,3H9.5L12,7.58L14.5,3H17.5L12,13.08L6.5,3Z"
+  /></svg
 >

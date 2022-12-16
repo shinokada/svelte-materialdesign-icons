@@ -4,16 +4,14 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.2.6](https://github.com/shinokada/svelte-materialdesign/compare/v0.2.5...v0.2.6) (2022-12-16)
 
-
 ### Features
 
-* add docsify ([837e1fb](https://github.com/shinokada/svelte-materialdesign/commit/837e1fbbfd9c835e97d2ca4d0a586894a8fee320))
-
+- add docsify ([837e1fb](https://github.com/shinokada/svelte-materialdesign/commit/837e1fbbfd9c835e97d2ca4d0a586894a8fee320))
 
 ### Bug Fixes
 
-* add package:publish script ([79dd02b](https://github.com/shinokada/svelte-materialdesign/commit/79dd02b9fdf35a6d5630ec9083eff63bd9f7da8e))
-* useTabs false in .prettierrc ([f356f70](https://github.com/shinokada/svelte-materialdesign/commit/f356f70a69da53f0d6e9e4c64b592bf9559fe101))
+- add package:publish script ([79dd02b](https://github.com/shinokada/svelte-materialdesign/commit/79dd02b9fdf35a6d5630ec9083eff63bd9f7da8e))
+- useTabs false in .prettierrc ([f356f70](https://github.com/shinokada/svelte-materialdesign/commit/f356f70a69da53f0d6e9e4c64b592bf9559fe101))
 
 ### [0.2.5](https://github.com/shinokada/svelte-materialdesign/compare/v0.2.4...v0.2.5) (2022-06-01)
 
