@@ -1,7 +1,15 @@
-# Svelte-Materialdesign-Icons
+<h1 align="center">Svelte-Materialdesign-Icons</h1>
 
-[![npm version](https://badgen.net/npm/v/svelte-materialdesign-icons)](https://www.npmjs.com/package/svelte-materialdesign-icons)
-[![license](https://badgen.net/npm/license/svelte-materialdesign-icons)](https://github.com/shinokada/svelte-materialdesign-icons/blob/main/LICENSE)
+<p align="center">
+<a href="https://shinokada.github.io/svelte-materialdesign-icons/">Svelte-Materialdesign-Icons</a>
+</p>
+
+<p align="center">
+<a href="https://www.npmjs.com/package/svelte-materialdesign-icons" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-materialdesign-icons" alt="npm"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-materialdesign-icons" alt="License"></a>
+<a href="https://www.npmjs.com/package/svelte-materialdesign-icons" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-materialdesign-icons.svg" alt="npm"></a>
+</p>
 
 6980+ Material Design SVG icon components for Svelte. Svelte-Materialdesign-Icons support major CSS frameworks using the `class` props.
 
@@ -9,19 +17,15 @@
 <img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-materialdesign/main/static/images/materialdesign1.png" />
 </p>
 
-## Original source
-
-[Templarian/MaterialDesign](https://github.com/Templarian/MaterialDesign)
-
-## Icon name list
-
-[Icon list](https://github.com/shinokada/svelte-materialdesign/blob/main/icon-list.md)
-
 ## Installation
 
 ```sh
 npm i -D svelte-materialdesign-icons
 ```
+
+## Icon name list
+
+[Icon list](https://github.com/shinokada/svelte-materialdesign/blob/main/icon-list.md)
 
 ## Usages
 
@@ -142,7 +146,7 @@ You can pass other attibutes as well.
 
 ## Import all
 
-[REPL](https://svelte.dev/repl/c0045886b264408fba13f1de70c42932?version=3.48.0)
+[REPL](https://svelte.dev/repl/c0045886b264408fba13f1de70c42932)
 
 Use `import * as Icon from 'svelte-materialdesign-icons`.
 
@@ -166,14 +170,10 @@ Use `import * as Icon from 'svelte-materialdesign-icons`.
 <Icon.Card class="text-pink-700" />
 ```
 
+## Original source
+
+[Templarian/MaterialDesign](https://github.com/Templarian/MaterialDesign)
+
 ## Other icons
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
-- [Svelte-Awesome-Icons](https://www.npmjs.com/package/svelte-awesome-icons)
-- [Svelte-materialdesign-icons](https://www.npmjs.com/package/svelte-materialdesign-icons)
-- [Svelte-Ionicons](https://www.npmjs.com/package/svelte-ionicons)
-- [Svelte-heros](https://github.com/shinokada/svelte-heros)
-- [Svelte-lucide](https://github.com/shinokada/svelte-lucide)
-- [Svelte-flags](https://www.npmjs.com/package/svelte-flags)
-- [Svlete-simples](https://github.com/shinokada/svelte-simples)
-- [Svelte-feathers](https://github.com/shinokada/svelte-feathers)
