@@ -1,17 +1,17 @@
-<h1 align="center">Svelte-Materialdesign</h1>
+<h1 align="center">Svelte-Materialdesign-Icons</h1>
 
 <p align="center">
-<a href="https://shinokada.github.io/svelte-materialdesign/">Svelte-Materialdesign</a>
+<a href="https://shinokada.github.io/svelte-materialdesign-icons/">Svelte-Materialdesign-Icons</a>
 </p>
 
 <p align="center">
-<a href="https://www.npmjs.com/package/svelte-materialdesign" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-materialdesign" alt="npm"></a>
+<a href="https://www.npmjs.com/package/svelte-materialdesign-icons" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-materialdesign-icons" alt="npm"></a>
 <a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
-<a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-materialdesign" alt="License"></a>
-<a href="https://www.npmjs.com/package/svelte-materialdesign" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-materialdesign.svg" alt="npm"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-materialdesign-icons" alt="License"></a>
+<a href="https://www.npmjs.com/package/svelte-materialdesign-icons" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-materialdesign-icons.svg" alt="npm"></a>
 </p>
 
-6980+ Material Design SVG icon components for Svelte. Svelte-Materialdesign support major CSS frameworks using the `class` props.
+6980+ Material Design SVG icon components for Svelte. Svelte-Materialdesign-Icons support major CSS frameworks using the `class` props.
 
 <p align="center">
 <img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-materialdesign/main/static/images/materialdesign1.png" />
@@ -20,7 +20,7 @@
 ## Installation
 
 ```sh
-npm i -D svelte-materialdesign
+npm i -D svelte-materialdesign-icons
 ```
 
 ## Icon name list
@@ -40,7 +40,7 @@ In a svelte file:
     Card,
     ChatPlus,
     DataMatrix
-  } from 'svelte-materialdesign';
+  } from 'svelte-materialdesign-icons';
 </script>
 
 <Adjust />
@@ -122,7 +122,7 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-  import { ChatPlus } from 'svelte-materialdesign';
+  import { ChatPlus } from 'svelte-materialdesign-icons';
   const props = {
     size: '50',
     color: '#ff0000'
@@ -136,7 +136,7 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-  import { ChatPlus } from 'svelte-materialdesign';
+  import { ChatPlus } from 'svelte-materialdesign-icons';
   import { onMount } from 'svelte';
   onMount(() => {
     const icon = new ChatPlus({ target: document.body, props });
@@ -148,11 +148,11 @@ You can pass other attibutes as well.
 
 [REPL](https://svelte.dev/repl/c0045886b264408fba13f1de70c42932)
 
-Use `import * as Icon from 'svelte-materialdesign`.
+Use `import * as Icon from 'svelte-materialdesign-icons`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-materialdesign';
+  import * as Icon from 'svelte-materialdesign-icons';
 </script>
 
 <Icon.Bucket />
