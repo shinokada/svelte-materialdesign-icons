@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.2.8](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.2.7...v0.2.8) (2022-12-16)
 
-
 ### Bug Fixes
 
-* type ([c453191](https://github.com/shinokada/svelte-materialdesign-icons/commit/c4531919972e0a918e0a23ee3b4076323bd145f8))
+- type ([c453191](https://github.com/shinokada/svelte-materialdesign-icons/commit/c4531919972e0a918e0a23ee3b4076323bd145f8))
 
 ### [0.2.7](https://github.com/shinokada/svelte-materialdesign/compare/v0.2.6...v0.2.7) (2022-12-16)
 

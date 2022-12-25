@@ -8,7 +8,7 @@
     "url": "https://blog.codewithshin.com"
   },
   "bugs": "https://github.com/shinokada/svelte-materialdesign-icons/issues",
-  "homepage": "https://shinokada.github.io/svelte-materialdesign-icons",
+  "homepage": "https://svelte-materialdesign-icons.codewithshin.com",
   "license": "MIT",
   "scripts": {
     "dev": "vite dev",
