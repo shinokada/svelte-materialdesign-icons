@@ -1,10 +1,11 @@
-<h1 align="center">Svelte-Materialdesign-Icons</h1>
+<h1 align="center">Svelte Materialdesign Icons</h1>
 
 <p align="center">
 <a href="https://svelte-materialdesign-icons.codewithshin.com/">Svelte-Materialdesign-Icons</a>
 </p>
 
 <p align="center">
+<a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"><img src="https://img.shields.io/badge/PWA-enabled-brightgreen" alt="PWA Shield"></a>
 <a href="https://www.npmjs.com/package/svelte-materialdesign-icons" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-materialdesign-icons" alt="npm"></a>
 <a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
 <a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-materialdesign-icons" alt="License"></a>
@@ -14,7 +15,7 @@
 6980+ Material Design SVG icon components for Svelte. Svelte-Materialdesign-Icons support major CSS frameworks using the `class` props.
 
 <p align="center">
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-materialdesign/main/static/images/materialdesign1.png" />
+<img width="400" src="/static/images/materialdesign.webp" />
 </p>
 
 ## Installation
@@ -25,7 +26,7 @@ npm i -D svelte-materialdesign-icons
 
 ## Icon name list
 
-[Icon list](https://github.com/shinokada/svelte-materialdesign/blob/main/icon-list.md)
+[Icon list](/icon-list.md)
 
 ## Usages
 
@@ -177,3 +178,9 @@ Use `import * as Icon from 'svelte-materialdesign-icons`.
 ## Other icons
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+
+## Experience lightning-fast browsing and offline access with Our PWA
+
+This website can be downloaded and installed on your device for offline access as a Progressive Web App.
+
+To install a PWA, look for the "Add to Home Screen" option in the browser's menu or settings. On most mobile devices, this option can be found by visiting the website, then selecting the "Options" or "Menu" button in the browser, and looking for the "Add to Home Screen" option. On some desktop browsers, right-click on the page and select "Install".
