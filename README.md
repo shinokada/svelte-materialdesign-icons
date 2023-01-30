@@ -15,7 +15,7 @@
 6980+ Material Design SVG icon components for Svelte. Svelte-Materialdesign-Icons support major CSS frameworks using the `class` props.
 
 <p align="center">
-<img width="400" src="/static/images/materialdesign.webp" />
+<img width="400" src="/static/images/material.webp" />
 </p>
 
 ## Installation
@@ -27,6 +27,10 @@ npm i -D svelte-materialdesign-icons
 ## Icon name list
 
 [Icon list](/icon-list.md)
+
+## Icon images
+
+[Icon images](/icon-images.md)
 
 ## Usages
 

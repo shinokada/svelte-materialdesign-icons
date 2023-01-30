@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.2.10](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.2.9...v0.2.10) (2023-01-30)
 
-
 ### Features
 
-* add pwa ([9b301c1](https://github.com/shinokada/svelte-materialdesign-icons/commit/9b301c14d00244192135e637c9f32e635983b122))
+- add pwa ([9b301c1](https://github.com/shinokada/svelte-materialdesign-icons/commit/9b301c14d00244192135e637c9f32e635983b122))
 
 ### [0.2.9](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.2.8...v0.2.9) (2022-12-25)
 
