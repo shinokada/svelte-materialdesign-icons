@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.12](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.2.11...v0.2.12) (2023-01-31)
+
+
+### Bug Fixes
+
+* add .nojekyll file ([388f8b7](https://github.com/shinokada/svelte-materialdesign-icons/commit/388f8b75c31225f0540c109ed826a2033bc766bf))
+* images ([3d010e3](https://github.com/shinokada/svelte-materialdesign-icons/commit/3d010e3d4a01513e27d0d4a96f6e7c754dc95125))
+* remove husky pre-commit run format ([ad96d52](https://github.com/shinokada/svelte-materialdesign-icons/commit/ad96d52852cef1dbd5426b5a9f2834b60aed4ea2))
+* update service-worker version ([6f5bc84](https://github.com/shinokada/svelte-materialdesign-icons/commit/6f5bc8408641a95a4be94eed2c43935a046aaba7))
+
 ### [0.2.11](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.2.10...v0.2.11) (2023-01-30)
 
 ### Bug Fixes
