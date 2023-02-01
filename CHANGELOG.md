@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.13](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.2.12...v0.2.13) (2023-02-01)
+
+
+### Bug Fixes
+
+* add optimized image ([33c7462](https://github.com/shinokada/svelte-materialdesign-icons/commit/33c746212d2cba1ae007f683cf927b2314489dd9))
+* badges target, height, and add links to crossOriginLinks ([38e6b13](https://github.com/shinokada/svelte-materialdesign-icons/commit/38e6b13945a3ac581c6a53ac10b4e269a976709f))
+* favicon link ([2c73f88](https://github.com/shinokada/svelte-materialdesign-icons/commit/2c73f88e9cb5dea0306a7579c4cbde2f7ec498af))
+* image width ([0d9ad4b](https://github.com/shinokada/svelte-materialdesign-icons/commit/0d9ad4b7352097063cb2df36f80ff2deef3657dd))
+
 ### [0.2.12](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.2.11...v0.2.12) (2023-01-31)
 
 
