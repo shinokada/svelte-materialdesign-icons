@@ -1,0 +1,1 @@
+<script>export let size="24"; export let color="currentColor";export let ariaLabel="bench" </script><svg xmlns="http://www.w3.org/2000/svg" id="mdi-bench" width={size} height={size} fill={color} class={$$props.class} {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24"><path d="M23 13H1V15H3V19H5V15H19V19H21V15H23V13Z" /></svg>
