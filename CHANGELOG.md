@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.3.1...v0.4.1) (2023-02-22)
+
+
+### Features
+
+* add microsoft webmaster tools meta tag ([cd9849b](https://github.com/shinokada/svelte-materialdesign-icons/commit/cd9849be7365c689c16d4f869ab875813cbe61f3))
+* new svelte packaging system ([0ee6a0b](https://github.com/shinokada/svelte-materialdesign-icons/commit/0ee6a0b93041026d7c70a31915091c13c89cf120))
+
+
+### Bug Fixes
+
+* add back to home ([08fb177](https://github.com/shinokada/svelte-materialdesign-icons/commit/08fb177f286348e3c4ed5c6cfb3b3e2701fc2684))
+* update index.html ([4a1b66a](https://github.com/shinokada/svelte-materialdesign-icons/commit/4a1b66a04dd1a06d0ef0e4913c3053c220c95136))
+
 ### [0.3.1](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.3.0...v0.3.1) (2023-02-03)
 
 ## [0.3.0](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.2.13...v0.3.0) (2023-02-03)
