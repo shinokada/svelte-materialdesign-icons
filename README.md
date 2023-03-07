@@ -40,22 +40,42 @@ In a svelte file:
 
 ```html
 <script>
-  import {
-    Adjust,
-    ArrowUpBoldOutline,
-    Bucket,
-    Card,
-    ChatPlus,
-    DataMatrix
-  } from 'svelte-materialdesign-icons';
+  import { Bucket } from 'svelte-materialdesign-icons';
 </script>
 
-<Adjust />
-<ArrowUpBoldOutline />
 <Bucket />
-<Card />
-<ChatPlus />
-<DataMatrix />
+```
+
+## Faster compiling
+
+For faster compilation, you can import the icon directly.
+
+```html
+<script>
+  import Bucket from 'svelte-materialdesign/Bucket.svelte';
+</script>
+
+<Bucket />
+```
+
+If you are TypeScript user, **this require `"typescript": "^5.0.0"`.**
+
+As of March 2023, the `typescript@beta` version is now available:
+
+```sh
+pnpm i -D typescript@beta
+```
+
+To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
+
+```json
+{
+  //...
+  "compilerOptions": {
+    // ...
+    "moduleResolution": "nodenext"
+  }
+}
 ```
 
 ## Size
@@ -114,7 +134,15 @@ All icons have aria-label. For example `AccessPointOff` has `aria-label="access 
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<AccessPointOff ariaLabel="Access off"></AccessPointOff>
+<AccessPointOff ariaLabel="Access off" />
+```
+
+## Unfocusable icon
+
+If you want to make an icon unfocusable, add `tabindex="-1"`.
+
+```html
+<AccessPointOff tabindex="-1" />
 ```
 
 ## Passing down other attributes
@@ -122,7 +150,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 You can pass other attibutes as well.
 
 ```html
-<AccessPointOff tabindex="0"></AccessPointOff>
+<AccessPointOff tabindex="0" />
 ```
 
 ## Using svelte:component
