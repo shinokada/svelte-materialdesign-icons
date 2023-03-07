@@ -115,7 +115,7 @@ Bootstrap examples:
 ```
 
 <p align="center">
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-materialdesign/main/static/images/materialdesign2.png" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-materialdesign-icons/main/static/images/materialdesign2.png" />
 </p>
 
 ## Dark mode
