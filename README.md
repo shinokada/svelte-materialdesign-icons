@@ -52,7 +52,7 @@ For faster compilation, you can import the icon directly.
 
 ```html
 <script>
-  import Bucket from 'svelte-materialdesign/Bucket.svelte';
+  import Bucket from 'svelte-materialdesign-icons/Bucket.svelte';
 </script>
 
 <Bucket />
