@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.1](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.4.1...v0.5.1) (2023-03-07)
+
+
+### Features
+
+* add script add-exports and update README ([8f22273](https://github.com/shinokada/svelte-materialdesign-icons/commit/8f22273f390f9f3d755cd6762cb2232619dd95af))
+
 ### [0.4.1](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.3.1...v0.4.1) (2023-02-22)
 
 
