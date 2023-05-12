@@ -207,6 +207,21 @@ Use `import * as Icon from 'svelte-materialdesign-icons`.
 <Icon.Card class="text-pink-700" />
 ```
 
+## Events
+
+All icons have the following events:
+
+```
+on:click
+on:mouseenter
+on:mouseleave
+on:mouseover
+on:mouseout
+on:blur
+on:focus
+```
+
+
 ## Original source
 
 [Templarian/MaterialDesign](https://github.com/Templarian/MaterialDesign)
