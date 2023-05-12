@@ -1,5 +1,3 @@
-# Icon names
-
 - AbTesting.svelte
 - Abacus.svelte
 - AbjadArabic.svelte
@@ -7333,8 +7331,4 @@
 - ZodiacScorpio.svelte
 - ZodiacTaurus.svelte
 - ZodiacVirgo.svelte
-
-## Back to Home
-
-[Back to Home](/)
-
+- index.js
