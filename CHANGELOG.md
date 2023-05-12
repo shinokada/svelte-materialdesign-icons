@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.1](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.5.1...v0.6.1) (2023-05-12)
+
+
+### Features
+
+* add events ([7c4f19b](https://github.com/shinokada/svelte-materialdesign-icons/commit/7c4f19bd5f658799d6ea55a910a39b182ec14ecf))
+
+
+### Bug Fixes
+
+* remove tailwind ([3ea8de6](https://github.com/shinokada/svelte-materialdesign-icons/commit/3ea8de61b897c8cda92384207d14af48b08e775c))
+
 ### [0.5.1](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.4.1...v0.5.1) (2023-03-07)
 
 
