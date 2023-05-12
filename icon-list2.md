@@ -7331,4 +7331,3 @@
 - ZodiacScorpio.svelte
 - ZodiacTaurus.svelte
 - ZodiacVirgo.svelte
-- index.js
