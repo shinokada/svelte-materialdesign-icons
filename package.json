@@ -26,47 +26,6 @@
     "add-exports": "node ./scripts/add-exports-to-package-json.js",
     "package:publish": "standard-version && git push --follow-tags origin main && npm run package && npm run add-exports && npm run write-package-json && npm publish"
   },
-  "files": [
-    "dist"
-  ],
-  "peerDependencies": {
-    "svelte": "^3.54.0"
-  },
-  "devDependencies": {
-    "@playwright/test": "^1.34.3",
-    "@sveltejs/adapter-auto": "^2.1.0",
-    "@sveltejs/kit": "^1.20.0",
-    "@sveltejs/package": "^2.0.2",
-    "@typescript-eslint/eslint-plugin": "^5.59.8",
-    "@typescript-eslint/parser": "^5.59.8",
-    "eslint": "^8.41.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-svelte3": "^4.0.0",
-    "prettier": "^2.8.8",
-    "prettier-plugin-svelte": "^2.10.1",
-    "publint": "^0.1.12",
-    "svelte": "^3.59.1",
-    "svelte-check": "^3.4.3",
-    "tslib": "^2.5.2",
-    "typescript": "^5.0.4",
-    "vite": "^4.3.9",
-    "vitest": "^0.31.2"
-  },
-  "svelte": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "type": "module",
-  "keywords": [
-    "svelte",
-    "sveltekit",
-    "material design",
-    "svg icons",
-    "tailwindcss",
-    "icons"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shinokada/svelte-materialdesign-icons"
-  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -17640,6 +17599,10 @@
       "types": "./dist/Memory.svelte.d.ts",
       "svelte": "./dist/Memory.svelte"
     },
+    "./MemoryArrowDown.svelte": {
+      "types": "./dist/MemoryArrowDown.svelte.d.ts",
+      "svelte": "./dist/MemoryArrowDown.svelte"
+    },
     "./Menorah.svelte": {
       "types": "./dist/Menorah.svelte.d.ts",
       "svelte": "./dist/Menorah.svelte"
@@ -29404,5 +29367,48 @@
       "types": "./dist/ZodiacVirgo.svelte.d.ts",
       "svelte": "./dist/ZodiacVirgo.svelte"
     }
+  },
+  "files": [
+    "dist",
+    "!dist/**/*.test.*",
+    "!dist/**/*.spec.*"
+  ],
+  "peerDependencies": {
+    "svelte": "^3.54.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.34.3",
+    "@sveltejs/adapter-auto": "^2.1.0",
+    "@sveltejs/kit": "^1.20.0",
+    "@sveltejs/package": "^2.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-svelte": "^2.29.0",
+    "prettier": "^2.8.8",
+    "prettier-plugin-svelte": "^2.10.1",
+    "publint": "^0.1.12",
+    "svelte": "^3.59.1",
+    "svelte-check": "^3.4.3",
+    "tslib": "^2.5.2",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.9",
+    "vitest": "^0.25.8"
+  },
+  "svelte": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "keywords": [
+    "svelte",
+    "sveltekit",
+    "material design",
+    "svg icons",
+    "tailwindcss",
+    "icons"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinokada/svelte-materialdesign-icons"
   }
 }

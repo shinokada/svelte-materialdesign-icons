@@ -1,4 +1,32 @@
-<script>export let size="24"; export let color="currentColor";export let ariaLabel="send circle" </script><svg xmlns="http://www.w3.org/2000/svg" id="mdi-send-circle" width={size} height={size} fill={color} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave on:mouseover on:mouseout viewBox="0 0 24 24"><path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M8,7.71V11.05L15.14,12L8,12.95V16.29L18,12L8,7.71Z" /></svg>
+<script>
+  export let size = '24';
+  export let color = 'currentColor';
+  export let ariaLabel = 'send circle';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  id="mdi-send-circle"
+  width={size}
+  height={size}
+  fill={color}
+  class={$$props.class}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 24 24"
+  ><path
+    d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M8,7.71V11.05L15.14,12L8,12.95V16.29L18,12L8,7.71Z"
+  /></svg
+>
 <!--
 @component
 [Go to Document](https://svelte-materialdesign-icons.codewithshin.com/)

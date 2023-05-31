@@ -1,4 +1,32 @@
-<script>export let size="24"; export let color="currentColor";export let ariaLabel="square root box" </script><svg xmlns="http://www.w3.org/2000/svg" id="mdi-square-root-box" width={size} height={size} fill={color} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave on:mouseover on:mouseout viewBox="0 0 24 24"><path d="M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3H5M11.24,6H19V8H12.76L10,18H8L6.25,12H5V10H7.75L9,14.28L11.24,6V6M14,10.59L15.79,12.38L17.59,10.59L19,12L17.21,13.79L19,15.59L17.59,17L15.79,15.21L14,17L12.59,15.59L14.38,13.79L12.59,12L14,10.59Z" /></svg>
+<script>
+  export let size = '24';
+  export let color = 'currentColor';
+  export let ariaLabel = 'square root box';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  id="mdi-square-root-box"
+  width={size}
+  height={size}
+  fill={color}
+  class={$$props.class}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 24 24"
+  ><path
+    d="M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3H5M11.24,6H19V8H12.76L10,18H8L6.25,12H5V10H7.75L9,14.28L11.24,6V6M14,10.59L15.79,12.38L17.59,10.59L19,12L17.21,13.79L19,15.59L17.59,17L15.79,15.21L14,17L12.59,15.59L14.38,13.79L12.59,12L14,10.59Z"
+  /></svg
+>
 <!--
 @component
 [Go to Document](https://svelte-materialdesign-icons.codewithshin.com/)

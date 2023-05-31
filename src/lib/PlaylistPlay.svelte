@@ -1,4 +1,30 @@
-<script>export let size="24"; export let color="currentColor";export let ariaLabel="playlist play" </script><svg xmlns="http://www.w3.org/2000/svg" id="mdi-playlist-play" width={size} height={size} fill={color} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave on:mouseover on:mouseout viewBox="0 0 24 24"><path d="M3 10H14V12H3V10M3 6H14V8H3V6M3 14H10V16H3V14M16 13V21L22 17L16 13Z" /></svg>
+<script>
+  export let size = '24';
+  export let color = 'currentColor';
+  export let ariaLabel = 'playlist play';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  id="mdi-playlist-play"
+  width={size}
+  height={size}
+  fill={color}
+  class={$$props.class}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 24 24"
+  ><path d="M3 10H14V12H3V10M3 6H14V8H3V6M3 14H10V16H3V14M16 13V21L22 17L16 13Z" /></svg
+>
 <!--
 @component
 [Go to Document](https://svelte-materialdesign-icons.codewithshin.com/)

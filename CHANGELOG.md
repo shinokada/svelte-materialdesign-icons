@@ -4,65 +4,57 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.1](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.5.1...v0.6.1) (2023-05-12)
 
-
 ### Features
 
-* add events ([7c4f19b](https://github.com/shinokada/svelte-materialdesign-icons/commit/7c4f19bd5f658799d6ea55a910a39b182ec14ecf))
-
+- add events ([7c4f19b](https://github.com/shinokada/svelte-materialdesign-icons/commit/7c4f19bd5f658799d6ea55a910a39b182ec14ecf))
 
 ### Bug Fixes
 
-* remove tailwind ([3ea8de6](https://github.com/shinokada/svelte-materialdesign-icons/commit/3ea8de61b897c8cda92384207d14af48b08e775c))
+- remove tailwind ([3ea8de6](https://github.com/shinokada/svelte-materialdesign-icons/commit/3ea8de61b897c8cda92384207d14af48b08e775c))
 
 ### [0.5.1](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.4.1...v0.5.1) (2023-03-07)
 
-
 ### Features
 
-* add script add-exports and update README ([8f22273](https://github.com/shinokada/svelte-materialdesign-icons/commit/8f22273f390f9f3d755cd6762cb2232619dd95af))
+- add script add-exports and update README ([8f22273](https://github.com/shinokada/svelte-materialdesign-icons/commit/8f22273f390f9f3d755cd6762cb2232619dd95af))
 
 ### [0.4.1](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.3.1...v0.4.1) (2023-02-22)
 
-
 ### Features
 
-* add microsoft webmaster tools meta tag ([cd9849b](https://github.com/shinokada/svelte-materialdesign-icons/commit/cd9849be7365c689c16d4f869ab875813cbe61f3))
-* new svelte packaging system ([0ee6a0b](https://github.com/shinokada/svelte-materialdesign-icons/commit/0ee6a0b93041026d7c70a31915091c13c89cf120))
-
+- add microsoft webmaster tools meta tag ([cd9849b](https://github.com/shinokada/svelte-materialdesign-icons/commit/cd9849be7365c689c16d4f869ab875813cbe61f3))
+- new svelte packaging system ([0ee6a0b](https://github.com/shinokada/svelte-materialdesign-icons/commit/0ee6a0b93041026d7c70a31915091c13c89cf120))
 
 ### Bug Fixes
 
-* add back to home ([08fb177](https://github.com/shinokada/svelte-materialdesign-icons/commit/08fb177f286348e3c4ed5c6cfb3b3e2701fc2684))
-* update index.html ([4a1b66a](https://github.com/shinokada/svelte-materialdesign-icons/commit/4a1b66a04dd1a06d0ef0e4913c3053c220c95136))
+- add back to home ([08fb177](https://github.com/shinokada/svelte-materialdesign-icons/commit/08fb177f286348e3c4ed5c6cfb3b3e2701fc2684))
+- update index.html ([4a1b66a](https://github.com/shinokada/svelte-materialdesign-icons/commit/4a1b66a04dd1a06d0ef0e4913c3053c220c95136))
 
 ### [0.3.1](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.3.0...v0.3.1) (2023-02-03)
 
 ## [0.3.0](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.2.13...v0.3.0) (2023-02-03)
 
-
 ### Bug Fixes
 
-* update index.js ([912cadc](https://github.com/shinokada/svelte-materialdesign-icons/commit/912cadc4bc78b0d27aa6d67f9124923c27a62202))
+- update index.js ([912cadc](https://github.com/shinokada/svelte-materialdesign-icons/commit/912cadc4bc78b0d27aa6d67f9124923c27a62202))
 
 ### [0.2.13](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.2.12...v0.2.13) (2023-02-01)
 
-
 ### Bug Fixes
 
-* add optimized image ([33c7462](https://github.com/shinokada/svelte-materialdesign-icons/commit/33c746212d2cba1ae007f683cf927b2314489dd9))
-* badges target, height, and add links to crossOriginLinks ([38e6b13](https://github.com/shinokada/svelte-materialdesign-icons/commit/38e6b13945a3ac581c6a53ac10b4e269a976709f))
-* favicon link ([2c73f88](https://github.com/shinokada/svelte-materialdesign-icons/commit/2c73f88e9cb5dea0306a7579c4cbde2f7ec498af))
-* image width ([0d9ad4b](https://github.com/shinokada/svelte-materialdesign-icons/commit/0d9ad4b7352097063cb2df36f80ff2deef3657dd))
+- add optimized image ([33c7462](https://github.com/shinokada/svelte-materialdesign-icons/commit/33c746212d2cba1ae007f683cf927b2314489dd9))
+- badges target, height, and add links to crossOriginLinks ([38e6b13](https://github.com/shinokada/svelte-materialdesign-icons/commit/38e6b13945a3ac581c6a53ac10b4e269a976709f))
+- favicon link ([2c73f88](https://github.com/shinokada/svelte-materialdesign-icons/commit/2c73f88e9cb5dea0306a7579c4cbde2f7ec498af))
+- image width ([0d9ad4b](https://github.com/shinokada/svelte-materialdesign-icons/commit/0d9ad4b7352097063cb2df36f80ff2deef3657dd))
 
 ### [0.2.12](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.2.11...v0.2.12) (2023-01-31)
 
-
 ### Bug Fixes
 
-* add .nojekyll file ([388f8b7](https://github.com/shinokada/svelte-materialdesign-icons/commit/388f8b75c31225f0540c109ed826a2033bc766bf))
-* images ([3d010e3](https://github.com/shinokada/svelte-materialdesign-icons/commit/3d010e3d4a01513e27d0d4a96f6e7c754dc95125))
-* remove husky pre-commit run format ([ad96d52](https://github.com/shinokada/svelte-materialdesign-icons/commit/ad96d52852cef1dbd5426b5a9f2834b60aed4ea2))
-* update service-worker version ([6f5bc84](https://github.com/shinokada/svelte-materialdesign-icons/commit/6f5bc8408641a95a4be94eed2c43935a046aaba7))
+- add .nojekyll file ([388f8b7](https://github.com/shinokada/svelte-materialdesign-icons/commit/388f8b75c31225f0540c109ed826a2033bc766bf))
+- images ([3d010e3](https://github.com/shinokada/svelte-materialdesign-icons/commit/3d010e3d4a01513e27d0d4a96f6e7c754dc95125))
+- remove husky pre-commit run format ([ad96d52](https://github.com/shinokada/svelte-materialdesign-icons/commit/ad96d52852cef1dbd5426b5a9f2834b60aed4ea2))
+- update service-worker version ([6f5bc84](https://github.com/shinokada/svelte-materialdesign-icons/commit/6f5bc8408641a95a4be94eed2c43935a046aaba7))
 
 ### [0.2.11](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.2.10...v0.2.11) (2023-01-30)
 

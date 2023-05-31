@@ -1,4 +1,32 @@
-<script>export let size="24"; export let color="currentColor";export let ariaLabel="gamepad round outline" </script><svg xmlns="http://www.w3.org/2000/svg" id="mdi-gamepad-round-outline" width={size} height={size} fill={color} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave on:mouseover on:mouseout viewBox="0 0 24 24"><path d="M4,8H8V4A2,2 0 0,1 10,2H14A2,2 0 0,1 16,4V8H20A2,2 0 0,1 22,10V14A2,2 0 0,1 20,16H16V20A2,2 0 0,1 14,22H10A2,2 0 0,1 8,20V16H4A2,2 0 0,1 2,14V10A2,2 0 0,1 4,8M4,10V14H10V20H14V14H20V10H14V4H10V10H4Z" /></svg>
+<script>
+  export let size = '24';
+  export let color = 'currentColor';
+  export let ariaLabel = 'gamepad round outline';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  id="mdi-gamepad-round-outline"
+  width={size}
+  height={size}
+  fill={color}
+  class={$$props.class}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 24 24"
+  ><path
+    d="M4,8H8V4A2,2 0 0,1 10,2H14A2,2 0 0,1 16,4V8H20A2,2 0 0,1 22,10V14A2,2 0 0,1 20,16H16V20A2,2 0 0,1 14,22H10A2,2 0 0,1 8,20V16H4A2,2 0 0,1 2,14V10A2,2 0 0,1 4,8M4,10V14H10V20H14V14H20V10H14V4H10V10H4Z"
+  /></svg
+>
 <!--
 @component
 [Go to Document](https://svelte-materialdesign-icons.codewithshin.com/)

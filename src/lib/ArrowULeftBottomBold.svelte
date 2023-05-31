@@ -1,4 +1,32 @@
-<script>export let size="24"; export let color="currentColor";export let ariaLabel="arrow u left bottom bold" </script><svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-u-left-bottom-bold" width={size} height={size} fill={color} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave on:mouseover on:mouseout viewBox="0 0 24 24"><path d="M21 10.5C21 14.64 17.64 18 13.5 18H11V22L4 16L11 10V14H13.5C15.43 14 17 12.43 17 10.5S15.43 7 13.5 7H6V3H13.5C17.64 3 21 6.36 21 10.5Z" /></svg>
+<script>
+  export let size = '24';
+  export let color = 'currentColor';
+  export let ariaLabel = 'arrow u left bottom bold';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  id="mdi-arrow-u-left-bottom-bold"
+  width={size}
+  height={size}
+  fill={color}
+  class={$$props.class}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 24 24"
+  ><path
+    d="M21 10.5C21 14.64 17.64 18 13.5 18H11V22L4 16L11 10V14H13.5C15.43 14 17 12.43 17 10.5S15.43 7 13.5 7H6V3H13.5C17.64 3 21 6.36 21 10.5Z"
+  /></svg
+>
 <!--
 @component
 [Go to Document](https://svelte-materialdesign-icons.codewithshin.com/)

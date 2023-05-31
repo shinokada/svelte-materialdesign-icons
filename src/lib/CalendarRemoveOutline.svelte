@@ -1,4 +1,32 @@
-<script>export let size="24"; export let color="currentColor";export let ariaLabel="calendar remove outline" </script><svg xmlns="http://www.w3.org/2000/svg" id="mdi-calendar-remove-outline" width={size} height={size} fill={color} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave on:mouseover on:mouseout viewBox="0 0 24 24"><path d="M19 3H18V1H16V3H8V1H6V3H5C3.9 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.9 20.11 3 19 3M19 19H5V9H19V19M5 7V5H19V7H5M8.23 16.41L9.29 17.47L11.73 15.03L14.17 17.47L15.23 16.41L12.79 13.97L15.23 11.53L14.17 10.47L11.73 12.91L9.29 10.47L8.23 11.53L10.67 13.97L8.23 16.41Z" /></svg>
+<script>
+  export let size = '24';
+  export let color = 'currentColor';
+  export let ariaLabel = 'calendar remove outline';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  id="mdi-calendar-remove-outline"
+  width={size}
+  height={size}
+  fill={color}
+  class={$$props.class}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 24 24"
+  ><path
+    d="M19 3H18V1H16V3H8V1H6V3H5C3.9 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.9 20.11 3 19 3M19 19H5V9H19V19M5 7V5H19V7H5M8.23 16.41L9.29 17.47L11.73 15.03L14.17 17.47L15.23 16.41L12.79 13.97L15.23 11.53L14.17 10.47L11.73 12.91L9.29 10.47L8.23 11.53L10.67 13.97L8.23 16.41Z"
+  /></svg
+>
 <!--
 @component
 [Go to Document](https://svelte-materialdesign-icons.codewithshin.com/)
