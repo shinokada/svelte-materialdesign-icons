@@ -1,1 +1,18 @@
-<script>export let size="24"; export let color="currentColor";export let ariaLabel="bowl mix" </script><svg xmlns="http://www.w3.org/2000/svg" id="mdi-bowl-mix" width={size} height={size} fill={color} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus viewBox="0 0 24 24"><path d="M16.2 11L20.3 4.5L22 5.5L18.6 11H16.2M15.6 12H2V15C2 18.9 5.1 22 9 22H15C18.9 22 22 18.9 22 15V12H15.6Z" /></svg>
+<script>export let size="24"; export let color="currentColor";export let ariaLabel="bowl mix" </script><svg xmlns="http://www.w3.org/2000/svg" id="mdi-bowl-mix" width={size} height={size} fill={color} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave on:mouseover on:mouseout viewBox="0 0 24 24"><path d="M16.2 11L20.3 4.5L22 5.5L18.6 11H16.2M15.6 12H2V15C2 18.9 5.1 22 9 22H15C18.9 22 22 18.9 22 15V12H15.6Z" /></svg>
+<!--
+@component
+[Go to Document](https://svelte-materialdesign-icons.codewithshin.com/)
+## Props
+@prop size = '24';
+@prop color = 'currentColor';
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->

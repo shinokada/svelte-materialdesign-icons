@@ -4390,6 +4390,7 @@ export { default as Medication } from './Medication.svelte';
 export { default as MedicationOutline } from './MedicationOutline.svelte';
 export { default as Meditation } from './Meditation.svelte';
 export { default as Memory } from './Memory.svelte';
+export { default as MemoryArrowDown } from './MemoryArrowDown.svelte';
 export { default as Menorah } from './Menorah.svelte';
 export { default as MenorahFire } from './MenorahFire.svelte';
 export { default as Menu } from './Menu.svelte';

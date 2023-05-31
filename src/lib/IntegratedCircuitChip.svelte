@@ -1,1 +1,18 @@
-<script>export let size="24"; export let color="currentColor";export let ariaLabel="integrated circuit chip" </script><svg xmlns="http://www.w3.org/2000/svg" id="mdi-integrated-circuit-chip" width={size} height={size} fill={color} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus viewBox="0 0 24 24"><path d="M10 4H20C21.11 4 22 4.89 22 6V8H18.59L16 10.59V14.59L14 16.59V20H10V16.59L8 14.59V9.41L10 7.41V4M18 11.41V14H22V10H19.41L18 11.41M6.59 8L8 6.59V4H4C2.89 4 2 4.89 2 6V8H6.59M6 14V10H2V14H6M8 17.41L6.59 16H2V18C2 19.11 2.89 20 4 20H8V17.41M17.41 16L16 17.41V20H20C21.11 20 22 19.11 22 18V16H17.41Z" /></svg>
+<script>export let size="24"; export let color="currentColor";export let ariaLabel="integrated circuit chip" </script><svg xmlns="http://www.w3.org/2000/svg" id="mdi-integrated-circuit-chip" width={size} height={size} fill={color} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave on:mouseover on:mouseout viewBox="0 0 24 24"><path d="M10 4H20C21.11 4 22 4.89 22 6V8H18.59L16 10.59V14.59L14 16.59V20H10V16.59L8 14.59V9.41L10 7.41V4M18 11.41V14H22V10H19.41L18 11.41M6.59 8L8 6.59V4H4C2.89 4 2 4.89 2 6V8H6.59M6 14V10H2V14H6M8 17.41L6.59 16H2V18C2 19.11 2.89 20 4 20H8V17.41M17.41 16L16 17.41V20H20C21.11 20 22 19.11 22 18V16H17.41Z" /></svg>
+<!--
+@component
+[Go to Document](https://svelte-materialdesign-icons.codewithshin.com/)
+## Props
+@prop size = '24';
+@prop color = 'currentColor';
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->
