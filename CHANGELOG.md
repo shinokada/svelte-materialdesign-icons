@@ -4,18 +4,16 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.3](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.6.2...v0.6.3) (2023-06-01)
 
-
 ### Features
 
-* add || ^4.0.0 to peerDependencies ([ca9e950](https://github.com/shinokada/svelte-materialdesign-icons/commit/ca9e950508b52c20985d0fbddfe031538c4de896))
+- add || ^4.0.0 to peerDependencies ([ca9e950](https://github.com/shinokada/svelte-materialdesign-icons/commit/ca9e950508b52c20985d0fbddfe031538c4de896))
 
 ### [0.6.2](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.6.1...v0.6.2) (2023-05-31)
 
-
 ### Features
 
-* add component docs ([f7e191c](https://github.com/shinokada/svelte-materialdesign-icons/commit/f7e191cf879cd3f86f3af72884c4561e6000f0e0))
-* add component docs ([04d28db](https://github.com/shinokada/svelte-materialdesign-icons/commit/04d28db40b317173c62567349bb6f618dc6b74db))
+- add component docs ([f7e191c](https://github.com/shinokada/svelte-materialdesign-icons/commit/f7e191cf879cd3f86f3af72884c4561e6000f0e0))
+- add component docs ([04d28db](https://github.com/shinokada/svelte-materialdesign-icons/commit/04d28db40b317173c62567349bb6f618dc6b74db))
 
 ### [0.6.1](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.5.1...v0.6.1) (2023-05-12)
 

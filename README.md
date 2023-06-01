@@ -48,6 +48,17 @@ In a svelte file:
 <Bucket />
 ```
 
+## Props
+
+- size = '24';
+- role = 'img';
+- color = 'currentColor';
+- ariaLabel = 'icon file name';
+
+## IDE support
+
+If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, features, props, events, and an example.
+
 ## Size
 
 Use the `size` prop to change the size of icons.
@@ -188,7 +199,6 @@ All icons have the following events:
 - on:mouseleave
 - on:mouseover
 - on:mouseout
-
 
 ## Original source
 
