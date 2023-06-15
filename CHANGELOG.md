@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.4](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.6.3...v0.6.4) (2023-06-01)
 
-
 ### Features
 
-* add prop role="img" ([712165f](https://github.com/shinokada/svelte-materialdesign-icons/commit/712165ff5f23c0e05ef5bebbd8c4ff0fe0b9a05e))
+- add prop role="img" ([712165f](https://github.com/shinokada/svelte-materialdesign-icons/commit/712165ff5f23c0e05ef5bebbd8c4ff0fe0b9a05e))
 
 ### [0.6.3](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.6.2...v0.6.3) (2023-06-01)
 
