@@ -104,10 +104,6 @@ Bootstrap examples:
 <Adjust class="position-absolute top-0 px-1" />
 ```
 
-<p align="center">
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-materialdesign-icons/main/static/images/materialdesign2.png" />
-</p>
-
 ## Dark mode
 
 If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
