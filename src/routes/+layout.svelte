@@ -39,8 +39,8 @@
     imageAlt: "Svelte Materialdesign Icons"
   }} />
   
-<header class="flex-none w-full mx-auto bg-white dark:bg-violet-950">
-  <Navbar color="default" fluid let:hidden let:toggle class="dark:bg-violet-950 ">
+<header class="flex-none w-full mx-auto bg-white dark:bg-fuchsia-950">
+  <Navbar color="default" fluid let:hidden let:toggle class="dark:bg-fuchsia-950 ">
     <NavBrand href="/">
       <span class="self-center whitespace-nowrap text-2xl font-semibold text-primary-900 dark:text-primary-500"> {title} </span>
     </NavBrand>
@@ -63,11 +63,11 @@
   <slot />
 </div>
 
-<Footer footerType="logo" class="dark:bg-violet-950">
+<Footer footerType="logo" class="dark:bg-fuchsia-950">
   <div class="sm:flex sm:items-center sm:justify-between">
     <FooterBrand
     href="https://svelte-materialdesign-icons.vercel.app/"
-    name="Svelte Coreui Icons" classSpan="text-primary-700 dark:text-primary-500"
+    name="Svelte Materialdesign Icons" classSpan="text-primary-700 dark:text-primary-500"
   />
   <FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
     <FooterLink href="/">Home</FooterLink>
