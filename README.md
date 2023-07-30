@@ -41,22 +41,20 @@ In a svelte file:
 
 ```html
 <script>
-  import { Bucket } from 'svelte-materialdesign-icons';
+  import { Icon } from 'svelte-materialdesign-icons';
 </script>
 
-<Bucket />
+<Icon name="bucket" />
 ```
-
-## Faster compiling
-
-TODO
 
 ## Props
 
-- size = '24';
-- role = 'img';
-- color = 'currentColor';
-- ariaLabel = 'icon file name';
+- @prop name;
+- @prop width = "24";
+- @prop height = "24";
+- @prop role = 'img';
+- @prop color = 'currentColor'
+- @prop ariaLabel='icon name'
 
 ## IDE support
 
@@ -64,18 +62,16 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 
 ## Size
 
-Use the `size` prop to change the size of icons.
+Use the `width` and `height` props to change the size of icons.
 
 ```html
-<Adjust size="40" />
-<ArrowUpBoldOutline size="50" />
-<Bucket size="60" />
+<Icon name="bucket" width="100" height="100" />
 ```
 
-If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
 
 ```html
-<Adjust class="shrink-0 h-20 w-20" />
+<Icon name="bucket" class="shrink-0 h-20 w-20" />
 ```
 
 ## CSS HEX Colors
@@ -83,25 +79,23 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<Card color="#c61515" />
-<ChatPlus color="#3759e5" />
-<DataMatrix color="#3fe537" />
+<Icon name="bucket" color="#c61515" />
 ```
 
-## CSS framworks suport
+## CSS frameworks suport
 
 You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
 Tailwind CSS example:
 
 ```html
-<Adjust class="h-24 w-24 text-blue-700 mr-4" />
+<Icon name="bucket" class="text-red-700 inline m-1" />
 ```
 
 Bootstrap examples:
 
 ```html
-<Adjust class="position-absolute top-0 px-1" />
+<Icon name="bucket" class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -111,16 +105,16 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<Adjust class="text-blue-700 dark:text-red-500" />
+<Icon name="bucket"  class="text-blue-700 dark:text-red-500" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `AccessPointOff` has `aria-label="access point off"`.
+All icons have aria-label. For example `bucket` has `aria-label="bucket"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<AccessPointOff ariaLabel="Access off" />
+<Icon name="bucket" ariaLabel="red bucket" color="#c61515"/>
 ```
 
 ## Unfocusable icon
@@ -128,7 +122,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<AccessPointOff tabindex="-1" />
+<Icon name="bucket"  tabindex="-1" />
 ```
 
 ## Events
@@ -150,57 +144,48 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<AccessPointOff tabindex="0" />
+<Icon name="bucket"  tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<script>
-  import { ChatPlus } from 'svelte-materialdesign-icons';
-  const props = {
-    size: '50',
-    color: '#ff0000'
-  };
-</script>
-
-<svelte:component this="{ChatPlus}" />
+<svelte:component this="{Icon}" name="bucket" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { ChatPlus } from 'svelte-materialdesign-icons';
+  import {Icon} from 'svelte-materialdesign-icons';
   import { onMount } from 'svelte';
+  const props = {
+    name: 'bucket',
+    size: '50',
+    color: '#ff0000'
+  };
   onMount(() => {
-    const icon = new ChatPlus({ target: document.body, props });
+    const icon = new Icon({ target: document.body, props });
   });
 </script>
 ```
 
+
 ## Import all
 
-Use `import * as Icon from 'svelte-materialdesign-icons`.
+Use `import {Icon, icons} from 'svelte-materialdesign-icons';`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-materialdesign-icons';
+  import {Icon, icons} from 'svelte-materialdesign-icons';
 </script>
 
-<Icon.Bucket />
-<Icon.Card />
-
-<h1>Size</h1>
-<Icon.Bucket size="30" />
-<Icon.Card size="40" />
-
-<h1>CSS HEX color</h1>
-<Icon.Bucket color="#c61515" size="40" />
-
-<h1>Tailwind CSS</h1>
-<Icon.Bucket class="text-blue-500" />
-<Icon.Card class="text-pink-700" />
+{#each Object.keys(icons) as name}
+<div class="flex gap-4 items-center text-lg">
+  <Icon name={name} bind:width={size} bind:height={size} class="shrink-0"/>
+  {name}
+</div>
+{/each}
 ```
 
 ## Other icons
