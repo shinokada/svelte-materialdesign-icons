@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.3](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.7.2...v0.7.3) (2023-07-31)
+
+
+### Bug Fixes
+
+* component doc update ([a51db2e](https://github.com/shinokada/svelte-materialdesign-icons/commit/a51db2ec7cf03c28cc33ab0b926b6ac57981f436))
+
 ### [0.7.2](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.7.1...v0.7.2) (2023-07-30)
 
 ### [0.7.1](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.6.6...v0.7.1) (2023-07-30)
