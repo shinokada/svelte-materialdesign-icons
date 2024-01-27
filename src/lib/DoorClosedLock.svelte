@@ -1,0 +1,40 @@
+<script>
+  export let size = '24';
+  export let role = 'img';
+  export let color = 'currentColor';
+  export let ariaLabel = 'door closed lock';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  id="mdi-door-closed-lock"
+  width={size}
+  height={size}
+  fill={color}
+  {...$$restProps}
+  {role}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 24 24"
+  ><path
+    d="M16 11H18V13H16V11M12 3H19A2 2 0 0 1 21 5V19H22V21H2V19H10V5A2 2 0 0 1 12 3M12 5V19H19V5M6.2 5H2.8V4.5A1.7 1.7 0 0 1 6.2 4.5M7 5V4.5A2.5 2.5 0 0 0 2 4.5V5A1 1 0 0 0 1 6V10A1 1 0 0 0 2 11H7A1 1 0 0 0 8 10V6A1 1 0 0 0 7 5"
+  /></svg
+>
+
+<!--
+@component
+[Go to docs](https://svelte-materialdesign-icons.vercel.app)
+## Props
+@prop export let size = '24';
+@prop export let role = 'img';
+@prop export let color = 'currentColor';
+@prop export let ariaLabel = 'door closed lock';
+-->

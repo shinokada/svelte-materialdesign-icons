@@ -12,7 +12,6 @@
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
-
 ## Repo
 
 [GitHub Repo](https://github.com/shinokada/svelte-materialdesign-icons)
@@ -21,13 +20,11 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [Templarian/MaterialDesign](https://github.com/Templarian/MaterialDesign)
 
-
 ## License
 
 [Svelte-Materialdesign-Icons License](https://github.com/shinokada/svelte-materialdesign-icons/blob/main/LICENSE)
 
 [Templarian/MaterialDesign LICENSE](https://github.com/Templarian/MaterialDesign/blob/master/LICENSE)
-
 
 ## Installation
 
@@ -105,7 +102,7 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<Icon name="bucket"  class="text-blue-700 dark:text-red-500" />
+<Icon name="bucket" class="text-blue-700 dark:text-red-500" />
 ```
 
 ## aria-label
@@ -114,7 +111,7 @@ All icons have aria-label. For example `bucket` has `aria-label="bucket"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<Icon name="bucket" ariaLabel="red bucket" color="#c61515"/>
+<Icon name="bucket" ariaLabel="red bucket" color="#c61515" />
 ```
 
 ## Unfocusable icon
@@ -122,7 +119,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<Icon name="bucket"  tabindex="-1" />
+<Icon name="bucket" tabindex="-1" />
 ```
 
 ## Events
@@ -144,7 +141,7 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<Icon name="bucket"  tabindex="0" />
+<Icon name="bucket" tabindex="0" />
 ```
 
 ## Using svelte:component
@@ -157,7 +154,7 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-  import {Icon} from 'svelte-materialdesign-icons';
+  import { Icon } from 'svelte-materialdesign-icons';
   import { onMount } from 'svelte';
   const props = {
     name: 'bucket',
@@ -170,19 +167,18 @@ You can pass other attibutes as well.
 </script>
 ```
 
-
 ## Import all
 
 Use `import {Icon, icons} from 'svelte-materialdesign-icons';`.
 
 ```html
 <script>
-  import {Icon, icons} from 'svelte-materialdesign-icons';
+  import { Icon, icons } from 'svelte-materialdesign-icons';
 </script>
 
 {#each Object.keys(icons) as name}
 <div class="flex gap-4 items-center text-lg">
-  <Icon name={name} class="shrink-0"/>
+  <Icon name="{name}" class="shrink-0" />
   {name}
 </div>
 {/each}

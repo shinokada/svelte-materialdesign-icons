@@ -1,0 +1,40 @@
+<script>
+  export let size = '24';
+  export let role = 'img';
+  export let color = 'currentColor';
+  export let ariaLabel = 'code block tags';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  id="mdi-code-block-tags"
+  width={size}
+  height={size}
+  fill={color}
+  {...$$restProps}
+  {role}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 24 24"
+  ><path
+    d="M5.59 3.41L7 4.82L3.82 8L7 11.18L5.59 12.6L1 8L5.59 3.41M11.41 3.41L16 8L11.41 12.6L10 11.18L13.18 8L10 4.82L11.41 3.41M22 6V18C22 19.11 21.11 20 20 20H4C2.9 20 2 19.11 2 18V14H4V18H20V6H17.03V4H20C21.11 4 22 4.89 22 6Z"
+  /></svg
+>
+
+<!--
+@component
+[Go to docs](https://svelte-materialdesign-icons.vercel.app)
+## Props
+@prop export let size = '24';
+@prop export let role = 'img';
+@prop export let color = 'currentColor';
+@prop export let ariaLabel = 'code block tags';
+-->

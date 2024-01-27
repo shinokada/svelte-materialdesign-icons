@@ -7,5 +7,7 @@ test('index page has expected h1', async ({ page }) => {
 
 test('Icons page has expected h1', async ({ page }) => {
   await page.goto('/icons');
-  await expect(page.getByRole('heading', { name: 'Svelte MaterialDesign Icons: Icons' })).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: 'Svelte MaterialDesign Icons: Icons' })
+  ).toBeVisible();
 });

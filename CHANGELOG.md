@@ -6,34 +6,30 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.7.3](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.7.2...v0.7.3) (2023-07-31)
 
-
 ### Bug Fixes
 
-* component doc update ([a51db2e](https://github.com/shinokada/svelte-materialdesign-icons/commit/a51db2ec7cf03c28cc33ab0b926b6ac57981f436))
+- component doc update ([a51db2e](https://github.com/shinokada/svelte-materialdesign-icons/commit/a51db2ec7cf03c28cc33ab0b926b6ac57981f436))
 
 ### [0.7.2](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.7.1...v0.7.2) (2023-07-30)
 
 ### [0.7.1](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.6.6...v0.7.1) (2023-07-30)
 
-
 ### Features
 
-* use two files ([9886d1b](https://github.com/shinokada/svelte-materialdesign-icons/commit/9886d1b3455f4499a38f05761743859f2a421d04))
+- use two files ([9886d1b](https://github.com/shinokada/svelte-materialdesign-icons/commit/9886d1b3455f4499a38f05761743859f2a421d04))
 
 ### [0.6.6](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.6.5...v0.6.6) (2023-07-20)
 
-
 ### Features
 
-* size range ([7639e0f](https://github.com/shinokada/svelte-materialdesign-icons/commit/7639e0f6385305f87d6b58341e7bc2173c8be777))
-
+- size range ([7639e0f](https://github.com/shinokada/svelte-materialdesign-icons/commit/7639e0f6385305f87d6b58341e7bc2173c8be777))
 
 ### Bug Fixes
 
-* color, add adapter-vercel ([fd58cd1](https://github.com/shinokada/svelte-materialdesign-icons/commit/fd58cd1ba1e1b405c61489fbe573210fa077b525))
-* homepage update ([b1178d3](https://github.com/shinokada/svelte-materialdesign-icons/commit/b1178d32d9edae2a1a832949a8b5a4d08b23ce78))
-* image sizes ([1d77b43](https://github.com/shinokada/svelte-materialdesign-icons/commit/1d77b439dfdbdd76f6deef61a8e2dd3e7c94d98e))
-* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([e7bc952](https://github.com/shinokada/svelte-materialdesign-icons/commit/e7bc9525c2d75ff202387973311f817e794f9dac))
+- color, add adapter-vercel ([fd58cd1](https://github.com/shinokada/svelte-materialdesign-icons/commit/fd58cd1ba1e1b405c61489fbe573210fa077b525))
+- homepage update ([b1178d3](https://github.com/shinokada/svelte-materialdesign-icons/commit/b1178d32d9edae2a1a832949a8b5a4d08b23ce78))
+- image sizes ([1d77b43](https://github.com/shinokada/svelte-materialdesign-icons/commit/1d77b439dfdbdd76f6deef61a8e2dd3e7c94d98e))
+- update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([e7bc952](https://github.com/shinokada/svelte-materialdesign-icons/commit/e7bc9525c2d75ff202387973311f817e794f9dac))
 
 ### [0.6.5](https://github.com/shinokada/svelte-materialdesign-icons/compare/v0.6.4...v0.6.5) (2023-06-15)
 
