@@ -70,12 +70,12 @@
       <NavLi class="lg:px-2 lg:mb-0" href="https://github.com/shinokada/svelte-materialdesign-icons"
         >GitHub</NavLi
       >
-      <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
+      <NavLi href="https://svelte-svg-icons.codewithshin.com/">Icon sets</NavLi>
     </NavUl>
     <div class="flex items-center ml-auto">
       <DarkMode class="inline-block dark:hover:text-white hover:text-gray-900" />
     </div>
-    <NavHamburger on:click={toggle} btnClass="ml-3 m-0 lg:hidden" />
+    <NavHamburger on:click={toggle} class="ml-3 m-0 lg:hidden md:block" />
   </Navbar>
 </header>
 <div class="mx-8 mb-16">

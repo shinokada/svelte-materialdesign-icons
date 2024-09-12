@@ -186,4 +186,4 @@ Use `import {Icon, icons} from 'svelte-materialdesign-icons';`.
 
 ## Other icons
 
-[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+[Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
